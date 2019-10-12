@@ -1,4 +1,6 @@
 from django.http import HttpResponse
+from django.shortcuts import render
+
 import requests
 import nude
 import os
@@ -27,4 +29,8 @@ def response_view(request):
         return HttpResponse(str(status))
     else:
         return HttpResponse('failure')
+
+def index(request):
+    template_name = "index.html"
+    return render(request,template_name,context=None)
 
