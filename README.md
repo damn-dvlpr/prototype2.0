@@ -27,8 +27,8 @@ python manage.py runserver
 * Chrome extensions
 
 ## Future additions and features
-A lock on the extension for it not to be disabled or removed
-Text can be filtered too
+A lock on the extension for it not to be disabled or removed<br>
+Text needs to be filtered
 
 ## Drawbacks as of now
 runs only on the local machine
