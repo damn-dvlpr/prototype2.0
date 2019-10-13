@@ -29,7 +29,11 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV "/home/sai/Documents/Prototype2.0/prototype2.0/prototype"
+=======
+set -gx VIRTUAL_ENV "/home/naimish/Desktop/Projects/prototype2.0/prototype"
+>>>>>>> f31ca14ec8e72e9d3c18cba47d318785355b633a
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

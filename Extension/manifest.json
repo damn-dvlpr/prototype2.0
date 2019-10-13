@@ -16,7 +16,9 @@
     {
       "matches": ["<all_urls>"],
       "js": ["blur.js"]
-    }
+   }
+  ],
+  "permissions": [
+    "https://*/"
   ]
-
 }
